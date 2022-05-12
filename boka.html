@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="description" content="Welcome to Paradise Hotell">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+  <header>
+    <nav class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="boka.html">Reserve</a>
+      <a href="hitta.html">Find</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+  </header>
+
+  <title>
+    Paradise Hotell
+  </title>
+
+  </head>
+
+  <main>
+    <h1>Paradise Hotell</h1>
+    <section class="top">
+
+      <article class="article left contact">
+
+        <form class="" action="boka.html" method="post">
+          <div class="elem-group">
+            <label for="name">Ditt Namn</label>
+            <input type="text" id="name" name="visitor_name" required value="">
+          </div>
+          <div class="elem-group">
+            <label for="email">Din E-mail</label>
+            <input type="email" id="email" name="visitor_email" placeholder="exempel.exempel@email.com" required value="">
+          </div>
+          <div class="elem-group">
+            <label for="phone">Din Telefonnumer</label>
+            <input type="tel" id="phone" name="visitor_phone" placeholder="XXX-XXX-XXXX" required value="">
+          </div>
+          <hr>
+          <div class="elem-group inlined">
+            <label for="adult">Vuxna</label>
+            <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required value="">
+          </div>
+          <div class="elem-group inlined">
+            <label for="child">Barn</label>
+            <input type="number" id="child" name="total_children" placeholder="2" min="1" required value="">
+          </div>
+          <div class="elem-group inlined">
+            <label for="checkin-date">Inchecknings Datum</label>
+            <input type="date" id="checkin-date" name="checkin" required value="">
+          </div>
+          <div class="elem-group inlined">
+            <label for="checkout-date">Utchecknings Datum</label>
+            <input type="date" id="checkout-date" name="checkout" required value="">
+          </div>
+          <div class="elem-group">
+            <label for="room-selection">Välj Rum</label>
+            <select id="room-selection" class="" name="room-preference" required>
+              <option value="">Välj ett Rum</option>
+              <option value="single">Singel</option>
+              <option value="double">Dubbel</option>
+              <option value="trple">Tredubbel</option>
+              <option value="queen">Drottning</option>
+              <option value="king">Kung</option>
+            </select>
+          </div>
+          <hr>
+          <div class="elem-group">
+            <label for="messege">Något annat?</label>
+            <textarea id="messege" name="visitor_name" placeholder="Berätta för oss allt annat som kan vara viktigt" required rows="8" cols="80"></textarea>
+          </div>
+          <button type="submit" name="button">Boka Rummen</button>
+        </form>
+
+      </article>
+
+      <article class="article-right">
+        <img class="hotel_room" src="hotel_room.webp" alt="hotel" width="" height="">
+        <img class="hotel_room" src="hotelroom_2.jpeg" alt="hotel" width="" height="">
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+    Föreningsgatan 41, 211 50 Malmö, Sverige
+  </footer>
+
+  <script src="script-nav.js"></script>
+</body>
+
+
+</html>
