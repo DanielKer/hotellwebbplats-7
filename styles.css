@@ -249,7 +249,6 @@ iframe {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
@@ -258,7 +257,7 @@ iframe {
   font-weight: 100;
   font-size: 16px;
   line-height: 32px;
-  color: #0000000;
+  color: #000000;
 }
 
 .container {
